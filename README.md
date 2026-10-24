@@ -62,3 +62,18 @@ pytest
 ## License
 
 MIT © [Abdullah Azmi](https://abdullahazmi.com)
+
+
+## CLI Diagnostics & Invariant Verification
+
+Run the built-in deterministic diagnostic probe and invariant self-check directly via the module CLI:
+
+```bash
+PYTHONPATH=src python -m espresso_telemetry --self-test --json
+```
+
+Run the complete regression test suite:
+
+```bash
+PYTHONPATH=src pytest -q
+```
